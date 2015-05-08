@@ -1,0 +1,32 @@
+body {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+input {
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: hsl(200, 75%, 50%);
+  border: none;
+  border-bottom: 2px solid hsl(200, 75%, 30%);
+  color: white;
+}
+
+.question { font-style: italic; }
+.answer { font-weight: bold; }
+
+.question, .answer {
+  margin-top: 10px;
+}
+
+.positive { color: green }
+.neutral { color: hsl(56, 66%, 59%) }
+.negative { color: red }

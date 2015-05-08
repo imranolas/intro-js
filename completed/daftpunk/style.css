@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+body {
+  font-family: 'helvetica';
+  font-size: 16px;
+  background-color: #000;
+  color: #00EDFD;
+  width: 600px;
+  margin: 40px auto 0;
+}
+
+#sounds { }
+
+.sound {
+  transition: 0.5s;
+  width: 140px;
+  height: 140px;
+  float: left;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #00EDFD;
+}
+
+.sound.playing {
+  transition: 0;
+  background-color: #00EDFD;
+  color: #000;
+}
+
+.sound:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sound span {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  flex: 1 1 auto;
+}

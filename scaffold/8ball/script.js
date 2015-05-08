@@ -1,0 +1,22 @@
+var answers = [
+  { answer: "It is certain", value: "positive" },
+  { answer: "It is decidedly so", value: "positive" },
+  { answer: "Without a doubt", value: "positive" },
+  { answer: "Yes definitely", value: "positive" },
+  { answer: "You may rely on it", value: "positive" },
+  { answer: "As I see it, yes", value: "positive" },
+  { answer: "Most likely", value: "positive" },
+  { answer: "Outlook good", value: "positive" },
+  { answer: "Yes", value: "positive" },
+  { answer: "Signs point to yes", value: "positive" },
+  { answer: "Reply hazy try again", value: "neutral" },
+  { answer: "Ask again later", value: "neutral" },
+  { answer: "Better not tell you now", value: "neutral" },
+  { answer: "Cannot predict now", value: "neutral" },
+  { answer: "Concentrate and ask again", value: "neutral" },
+  { answer: "Don't count on it", value: "negative" },
+  { answer: "My reply is no", value: "negative" },
+  { answer: "My sources say no", value: "negative" },
+  { answer: "Outlook not so good", value: "negative" },
+  { answer: "Very doubtful", value: "negative" }
+];
